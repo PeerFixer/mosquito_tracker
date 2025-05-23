@@ -31,11 +31,19 @@
 
 ### 依赖安装
 ```bash
-# 安装作战装备
-pip install opencv-python numpy matplotlib pygame
-
-# 如果安装失败，请检查网络或者问问蚊子它们用什么包管理器
+pip install -r requirements.txt
 ```
+或：
+```
+pip install opencv-python numpy matplotlib pygame
+```
+或：
+```bash
+pip install opencv-python>=4.8.0 numpy>=1.21.0 matplotlib>=3.5.0 pygame>=2.1.0 PyQt5>=5.15.0
+```
+
+```如果安装失败，请检查网络或者问问蚊子它们用什么包管理器 ```
+
 
 ### 启动作战系统
 ```bash

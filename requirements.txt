@@ -1,0 +1,17 @@
+# 蚊子雷达追踪系统依赖包
+# Mosquito Radar Tracking System Dependencies
+
+# 计算机视觉
+opencv-python>=4.8.0
+
+# 数值计算
+numpy>=1.21.0
+
+# 数据可视化
+matplotlib>=3.5.0
+
+# 游戏和音频处理
+pygame>=2.1.0
+
+# GUI后端 (可选，如果matplotlib默认后端有问题)
+PyQt5>=5.15.0 
